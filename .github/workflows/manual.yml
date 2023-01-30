@@ -1,4 +1,4 @@
-name: Run JS Action
+name: Cassandra Run JS Action
 on: workflow_dispatch
 jobs:
   run-action:
@@ -8,4 +8,4 @@ jobs:
       - name: my-cool-action
         uses: ./
         with:
-          name: "Ben"
+          name: "Cassandra"
