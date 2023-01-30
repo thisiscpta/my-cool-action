@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: my-cool-action
-        uses: ./
+        uses: thisiscpta/my-cool-action
         with:
           name: "Cassandra"
