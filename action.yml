@@ -1,0 +1,14 @@
+name: My Cool Action
+author: Benjamin Lannon
+description: "Action that does some cool stuff!"
+inputs:
+  name:
+    description: "Name"
+    required: false
+    default: "Benjamin"
+runs:
+  using: "node12"
+  main: "main.js"
+branding:
+  color: "green"
+  icon: "send"
